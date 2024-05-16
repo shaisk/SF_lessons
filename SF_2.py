@@ -15,7 +15,7 @@ def main():
         total_cost += ticket_price
 
     if num_tickets > 3:
-        total_cost *= 0.9  # Применяем 10% скидку, если билетов больше трех
+        total_cost *= 0.9  # Применяем 10% скидку, если билетов больше 3
 
     print("Сумма к оплате:", total_cost, "руб.")
 
